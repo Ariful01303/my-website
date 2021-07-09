@@ -1,0 +1,39 @@
+
+
+body{
+background: rgba(255, 255, 255, 0.719);}
+
+
+
+
+
+.bat{
+    transition: transform .5s ease-in;
+}
+
+.fild:hover .bat{
+    transform: rotate(-45deg);
+    transform-origin:top right ;
+}
+
+
+.fild{
+    border: 1px solid black;
+}
+.ball{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background:red ;
+    position:relative;
+    left: 450px;
+    bottom: 100px;
+   transition: transform 1s ease-out 0.4s;
+    
+
+}
+.fild:hover .ball{
+    transform: translate(570px,-409px);
+
+    
+}

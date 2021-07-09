@@ -1,0 +1,72 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.as{
+    height: 200px;
+    width: 200px;
+    background: #000;
+}
+.df{
+    position: inline;
+    top: 10px;
+    height: 200px;
+    width: 200px;
+    background: rgb(86, 7, 233);
+}
+.gh{
+    height: 200px;
+    width: 200px;
+    background: rgb(250, 7, 7);
+}
+.gh{
+    position:inline;
+    top: 20px;
+   
+}
+.swimming div
+{
+    border: 1px solid red;
+    width: 200px;
+}
+#child{
+    position: relative;
+    top: 70px;
+   
+    z-index: 2;
+}
+#water{
+    position: relative;
+    top: -70px;
+    z-index:0 ;
+}
+#ring{
+    position: relative;
+  
+    left: 20px;
+    z-index: 1;
+
+}
+#child:hover{
+        position: relative;
+        left: 100px;
+
+}
+#water:hover{
+    position: relative;
+    left: 100px;
+   
+
+
+}
+#ring:hover{
+  
+
+}
+input:focus{
+    color: red;
+    
+
+}
+li:nth-child(2){
+    color: red;
+}
