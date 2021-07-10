@@ -1,0 +1,32 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav a{
+    color: lightseagreen;
+    text-decoration: none;
+    margin-right: 20px;
+
+}
+.contaoner{
+    display: flex;
+    flex-direction: column;
+    
+}
+.content{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.contaoner input,button{
+    margin-top: 10px;
+    font-size: 1.3em;
+    padding: 10px;
+    
+}
+button{
+    color: maroon;
+    background: rgb(148, 135, 135);
+    font-weight: 700;
+    border-radius: 5px;
+}
