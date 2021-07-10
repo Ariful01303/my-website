@@ -1,0 +1,34 @@
+.album{
+    width: 200px;
+    height: 150px;
+    border: 1px solid red;
+    position: relative;
+    border-radius: 5px;
+    margin: 5px;
+}
+.tiger img{
+    width: 100%;
+    border-radius: 5px;
+}
+.photo-daitalls{
+    display: none;
+    position: absolute;
+    top: 0;
+    width: 200px;
+    text-align: center;
+   
+    
+   
+}
+.photo-daitalls p{
+  font-size: 10px;
+}
+.album:hover .photo-daitalls{
+    display: block;
+    background: rgba(87, 171, 228, 0.473);
+
+}
+.photo-albam{
+   display: flex;
+   flex-wrap: wrap;
+}

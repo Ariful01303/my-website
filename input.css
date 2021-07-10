@@ -30,3 +30,39 @@ button{
     font-weight: 700;
     border-radius: 5px;
 }
+button:hover{
+    background: rgb(0, 0, 0);
+    color: honeydew;
+}
+/* .grid */
+.new-one{
+    margin-top: 50px;
+}
+.grid{
+    display: grid;
+    grid-template-columns:repeat(7,1fr);
+    grid-gap: 20px 10px;
+}
+.grid-cell{
+    border: 5px solid goldenrod;
+}
+/* .clander */
+.cal{
+    margin-top: 50px;
+}
+.clander{
+display: grid;
+grid-template-columns: repeat(7,1fr);
+grid-gap: 5px;
+
+
+
+}
+.date{
+ border: 3px solid goldenrod;
+ display: flex;
+ justify-content: center;
+ background: rgb(212, 170, 170);
+ border-radius: 10px;
+
+}
